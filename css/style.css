@@ -6,7 +6,7 @@ body {
     width: fit-content;
     margin: 0;
     padding: 0;
-    font-family: 'Lora, Regular, Bold';
+    font-family: 'Lora';
     background-color: white;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .bouquet__text {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -209,7 +209,6 @@ body {
 }
 
 .information__main__text {
-    font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -230,7 +229,7 @@ body {
 }
 
 .information__text {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -329,7 +328,7 @@ body {
     width: 150px;
     height: 52px;
     display: inline-block;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -406,7 +405,7 @@ body {
     border: 2px solid #FFC2C7;
     border-radius: 50px;
     background-color: white;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' , sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -495,7 +494,7 @@ body {
 .section__5__text1 {
     width: 365px;
     height: 105px;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -513,7 +512,7 @@ body {
 .section__5__author__and__date1 {
     width: 149px;
     height: 16px;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' , sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -556,7 +555,7 @@ body {
 .section__5__text2 {
     width: 365px;
     height: 105px;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -574,7 +573,7 @@ body {
 .section__5__author__and__date2 {
     width: 149px;
     height: 16px;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' , sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -626,7 +625,7 @@ body {
     border-radius: 10px;
     margin-left: 64px;
     border-color: white;
-    resize:none
+    resize: none
 }
 
 .section__5__input__field__2 {
@@ -636,13 +635,13 @@ body {
     border-radius: 10px;
     margin-left: 64px;
     border-color: white;
-    resize:none;
+    resize: none;
     margin-top: 12px;
 }
 
 .section__5__input__field__1::placeholder,
 .section__5__input__field__2::placeholder {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -680,3 +679,215 @@ body {
 
 /*____________________________________________________*/
 
+.section__6__title {
+    width: 262px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #351F21;
+    margin-top: 44px;
+    margin-left: 65px;
+}
+
+.section__6__image__and__text__container {
+    display: grid;
+    grid-template-areas:
+    "circle1 circle2 circle3"
+    "circle4 circle5 circle6";
+    margin-left: 128px;
+    padding-top: 20px;
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+}
+
+.section__6__img {
+    border-radius: 50px;
+    width: 65px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px #FFC2C7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #A9BFE4;
+}
+
+.section__6__text {
+    width: 200px;
+    height: 52px;
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    color: #351F21;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: -70px;
+}
+
+.section__6__flowers__img__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    transform: translateY(-140px);
+}
+
+.section__6__flowers__img {
+    background-image: url("../images/flowers 3.png");
+    background-size: 100%;
+    width: 167px;
+    height: 567px;
+    margin-right: -180px;
+    transform: rotate(-55.59deg);
+}
+
+/*____________________________________________________*/
+
+.section__footer__main__container {
+    width: 100%;
+    height: 200px;
+    background: #b8c3e7;
+    margin-top: -490px;
+}
+
+.section__footer__img__container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.section__footer__img {
+    width: 136px;
+    height: 55px;
+    margin-top: 5px;
+}
+
+.section__footer__contacts__container {
+    display: grid;
+    grid-template-areas:
+    "contacts1 contacts2 contacts3 contacts4";
+}
+
+.section__footer__text__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 65px;
+}
+
+.section__footer__title {
+    width: 94px;
+    height: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.section__footer__information {
+    width: auto;
+    height: 66px;
+    margin-top: -30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.section__footer__search__wrapper {
+    width: 400px;
+    height: 40px;
+    position:relative;
+}
+
+.section__footer__input {
+    width: 236px;
+    height: 26px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border:none;
+    resize: none;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.section__footer__input::placeholder {
+    width: 130px;
+    height: 25px;
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 13px;
+    color: #ACACAC;
+    padding-left: 12px;
+    padding-top: 3px;
+}
+
+.section__footer__button {
+    width: 89px;
+    height: 26px;
+    background: #FFC2C7;
+    border-radius: 50px;
+    border:none;
+    color: #FFFDFD;
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    margin-left: -50px;
+    margin-top: 30px;
+    position:absolute;
+}
+
+.section__footer__image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.social__networks__images {
+    width: 20px;
+    height: 23px;
+    margin-right: 15px;
+}
+
+.section__footer__text__time {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    margin-right: 200px;
+}
+
+.section__footer__text {
+    height: 14px;
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*____________________________________________________*/
